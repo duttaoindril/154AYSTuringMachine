@@ -1,6 +1,6 @@
 # 154AYSTuringMachine
 
-##Project Description
+## Project Description
 
 Everything comes together into the `main.jff` file. Run that for project level testing, look at the **testing** section below for more details.
 
@@ -18,7 +18,7 @@ Each of their functionalities are broken up more into smaller file chunks in eac
 
 In terms of OOP, think of these smaller files as functions and each command is a class that uses these functions, and the main is the runner class that calls each of the classes to run the commands.
 
-##Testing
+## Testing
 
 Everything should be boiled down to the `main.jff` - all project level testing should happen in that file.
 
