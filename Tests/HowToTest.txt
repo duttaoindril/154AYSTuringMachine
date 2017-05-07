@@ -1,0 +1,34 @@
+Example of testing using enumerating cases and creating strings fitting those cases
+
+Testing LAV:
+
+cases to check:
+
+if value is 0
+if value is non zero
+if a contains a value already: -1, 1111, -1111
+if a does not contain anything: 0
+
+if a has 0
+#LAV$#H
+#LAV$-1#H
+#LAV$1111#H
+#LAV$-1111#H
+
+if a already has -1
+#DA#LAV$#H
+#DA#LAV$-1#H
+#DA#LAV$1111#H
+#DA#LAV$-1111#H
+
+if a has 1111
+#IA#IA#IA#IA#LAV$#H
+#IA#IA#IA#IA#LAV$-1#H
+#IA#IA#IA#IA#LAV$1111#H
+#IA#IA#IA#IA#LAV$-1111#H
+
+if a has -1111
+#DA#DA#DA#DA#LAV$#H
+#DA#DA#DA#DA#LAV$-1#H
+#DA#DA#DA#DA#LAV$1111#H
+#DA#DA#DA#DA#LAV$-1111#H
