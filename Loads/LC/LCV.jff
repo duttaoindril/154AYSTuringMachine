@@ -88,6 +88,13 @@
 			<move>R</move>&#13;
 		</transition>&#13;
 		<transition>&#13;
+			<from>6</from>&#13;
+			<to>8</to>&#13;
+			<read>c</read>&#13;
+			<write>~</write>&#13;
+			<move>R</move>&#13;
+		</transition>&#13;
+		<transition>&#13;
 			<from>1</from>&#13;
 			<to>12</to>&#13;
 			<read>#</read>&#13;
@@ -155,13 +162,6 @@
 			<to>3</to>&#13;
 			<read>c</read>&#13;
 			<write>~</write>&#13;
-			<move>R</move>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>6</from>&#13;
-			<to>8</to>&#13;
-			<read>c</read>&#13;
-			<write/>&#13;
 			<move>R</move>&#13;
 		</transition>&#13;
 		<transition>&#13;
