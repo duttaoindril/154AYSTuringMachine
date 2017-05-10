@@ -126,6 +126,13 @@
 		</transition>
 		<transition>
 			<from>11</from>
+			<to>8</to>
+			<read>N</read>
+			<write>~</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>11</from>
 			<to>12</to>
 			<read>S</read>
 			<write>~</write>
@@ -137,13 +144,6 @@
 			<read>#</read>
 			<write>~</write>
 			<move>S</move>
-		</transition>
-		<transition>
-			<from>11</from>
-			<to>8</to>
-			<read>N</read>
-			<write>@</write>
-			<move>R</move>
 		</transition>
 		<transition>
 			<from>12</from>
