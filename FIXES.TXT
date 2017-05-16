@@ -1,0 +1,2 @@
+- Fix all Jumps to be able to Handle Labels by going left till it finds & and then go Right to #
+- Fix q20 in Jump Left and Jump Right to find the first x on the left
