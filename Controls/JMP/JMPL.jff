@@ -248,13 +248,6 @@
 			<move>L</move>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>20</from>&#13;
-			<to>20</to>&#13;
-			<read>!x</read>&#13;
-			<write>~</write>&#13;
-			<move>L</move>&#13;
-		</transition>&#13;
-		<transition>&#13;
 			<from>25</from>&#13;
 			<to>25</to>&#13;
 			<read>!&amp;</read>&#13;
@@ -399,6 +392,13 @@
 		<transition>&#13;
 			<from>11</from>&#13;
 			<to>11</to>&#13;
+			<read>!x</read>&#13;
+			<write>~</write>&#13;
+			<move>R</move>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>20</to>&#13;
 			<read>!x</read>&#13;
 			<write>~</write>&#13;
 			<move>R</move>&#13;
